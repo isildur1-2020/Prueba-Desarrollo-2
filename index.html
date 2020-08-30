@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" href="public/icon.png" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Londrina+Solid&display=swap" />
+    <title>Pr&aacutectica2</title>
+</head>
+
+<body>
+    <div class="containerOne">
+        <h1>Práctica Dos</h1>
+        <p>
+            Tendrás 3 segundos para escoger tú jugada.<br />
+            La siguiente imagen muestra las reglas del juego:
+        </p>
+        <section class="containerRules">
+            <img class="rulesImg" src="public/main.png" alt="reglas" />
+            <button>Siguiente</button>
+        </section>
+    </div>
+
+    <div class="containerTwo hidden">
+        <section class="containerRondas">
+            <h1>Escribe el n&uacutemero de rondas</h1>
+            <input type="text" placeholder="Ejemplo: 1, 2, 3... etc."/>
+            <button>Jugar !</button>
+        </section>
+    </div>
+    
+    <div class="containerThree hidden">
+        <section class="containerImgs">
+            <h1>Escoge tu jugada</h1>
+            <h2 id="count">Cuenta regresiva</h2>
+            <div>
+                <img class="imageThree" alt="piedra" />
+                <img class="imageThree" alt="papel"  />
+                <img class="imageThree" alt="tijera" />
+                <img class="imageThree" alt="lagarto"/>
+                <img class="imageThree" alt="spock"  />
+            </div>
+        </section>
+    </div>
+
+    <div class="containerFour hidden">
+        <section class="subContainerFour">
+            <h1 id="message">GANADOR</h1>
+            <section class="containerImgFour">
+                <div>
+                    <h3>TU ELECCIÓN</h1>
+                    <img class="imgFour" alt="Persona-Elección" />
+                </div>
+                <div>
+                    <h3>ELECCIÓN COMPUTADOR</h1>
+                    <img class="imgFour" alt="Computador-Elección" />
+                </div>
+            </section>
+            <button id="nextRound">Siguiente Ronda</button>
+        </section>
+    </div>
+
+    <script src="js/document.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

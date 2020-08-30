@@ -1,0 +1,90 @@
+* {
+  font-family: "Londrina Solid", cursive;
+  font-size: 30px;
+}
+body {
+  margin: 0;
+}
+button {
+  margin: 20px;
+  width: 200px;
+  height: 60px;
+
+  border: none;
+  outline: none;
+  border-radius: 10px;
+
+  background: #7cfc00;
+}
+button:hover,
+button:focus {
+  background: #adff2f;
+}
+.hidden {
+  display: none;
+}
+
+/* PART ONE */
+.containerOne {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.containerRules {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rulesImg {
+  width: 400px;
+  height: 400px;
+}
+/* PART TWO */
+.containerTwo {
+  width: 100%;
+  height: 100vh;
+}
+.containerRondas {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* PART THREE */
+.containerThree {
+  width: 100%;
+  height: 100vh;
+}
+.containerImgs {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* PART FOUR */
+.imgFour {
+  margin: 30px;
+}
+.subContainerFour {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.containerImgFour {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+}
